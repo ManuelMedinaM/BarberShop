@@ -1,0 +1,31 @@
+.scream{
+    top: -100%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: top 0.8s;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.media:hover .scream{
+    top: 0%;
+}
+
+.img{
+    align-self: center !important;
+    overflow: hidden;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    }
+
+.decoration:hover{
+   color:white;
+}
